@@ -5,7 +5,7 @@ return Object.fromEntries(arr)
 }
 async function somefunc(){
 let cloudflareJSON = await getCloudflareJSON()
-document.querySelector('#IpAdressIp).innerHTML = cloudflareJSON.ip
+document.querySelector('#IpAdressId).innerHTML = cloudflareJSON.ip
 console.log(cloudflareJSON.ip)
 }
 
